@@ -716,6 +716,8 @@ m_PackageAssets:
         - 2.0.0-pre.4
         - 2.0.0-pre.5
         - 2.0.0-pre.6
+        - 2.0.0
+        - 2.1.0-pre.1
         compatible:
         - 0.1.4-preview
         - 0.1.8-preview
@@ -755,6 +757,8 @@ m_PackageAssets:
         - 2.0.0-pre.4
         - 2.0.0-pre.5
         - 2.0.0-pre.6
+        - 2.0.0
+        - 2.1.0-pre.1
         verified: 
       dependencies:
       - name: com.unity.editorcoroutines

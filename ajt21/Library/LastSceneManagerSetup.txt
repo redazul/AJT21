@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/azuldev_lvl3.unity
+- path: Assets/azuldev_lvl3_v2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
