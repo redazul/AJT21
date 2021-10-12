@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Drive/LVL_1.unity
-    guid: 612ef188086257e46a4cc7633b93a373
+    path: Assets/LVL_1.unity
+    guid: 85bee74e7fcdcb548831249a74cf9c7a
   - enabled: 1
-    path: Assets/Drive/MountainLevel.unity
-    guid: d632f64f4d0d9f3459b75dc7308de876
+    path: Assets/MountainLevel.unity
+    guid: 56f6469d2dd28e041972aab94d88bb37
   m_configObjects: {}
