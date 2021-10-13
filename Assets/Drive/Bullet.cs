@@ -17,7 +17,7 @@ public class Bullet : MonoBehaviour
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
         Debug.Log(hitInfo.name);
-        if(hitInfo.name != "WorldRegion")
+        if(hitInfo.name != "WorldRegion" && hitInfo.name != "bolt1(Clone)" )
         {
         Destroy(gameObject);
         }

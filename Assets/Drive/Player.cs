@@ -6,6 +6,9 @@ public class Player : MonoBehaviour
 {
     public float MovementSpeed = 7.5f;
     public float JumpForce = 5; 
+    public SpriteRenderer _spriteRenderer;
+    public Animator _anim;
+    public bool grounded;
 
     private Rigidbody2D rb;
 
@@ -19,10 +22,39 @@ public class Player : MonoBehaviour
     void Update()
     {
         var movement = Input.GetAxis("Horizontal");
+
+        if(movement < 0)
+        {
+            _spriteRenderer.flipX = true;
+            if(grounded == true)
+            {
+            _anim.SetInteger("speed",1);
+            }
+        }else
+        {
+            if(movement != 0)
+            {
+            _spriteRenderer.flipX =false;
+            }
+            if(movement != 0 && grounded == true)
+            {
+                _anim.SetInteger("speed",1);
+            }
+        
+        }
+
+        if(movement == 0)
+        {
+            _anim.SetInteger("speed",0);
+        }
+
         transform.position += new Vector3(movement,0,0) * Time.deltaTime * MovementSpeed;
 
         if (Input.GetButtonDown("Jump"))
         {
+            grounded = false;
+            _anim.SetInteger("speed",0);
+            _anim.SetBool("hover",true);
             rb.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse); 
         }
     }
