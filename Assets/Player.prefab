@@ -102,6 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 580604725381435788}
   - component: {fileID: 580604725381435789}
+  - component: {fileID: 1657844090171488265}
   - component: {fileID: 580604725381435790}
   - component: {fileID: 580604725381435791}
   - component: {fileID: 580604725381435784}
@@ -148,6 +149,49 @@ MonoBehaviour:
   _spriteRenderer: {fileID: 580604725381435891}
   _anim: {fileID: 580604725381435890}
   grounded: 0
+--- !u!114 &1657844090171488265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580604725381435889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5ba76e5a8688b4486f2b9cc1c13a44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  healthChangeListeners:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Health, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  deathListeners:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Health, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!50 &580604725381435790
 Rigidbody2D:
   serializedVersion: 4
