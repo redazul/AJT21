@@ -86,7 +86,8 @@ public class Slideshow : MonoBehaviour
              //Debug.Log("Loading new scene");
              SceneManager.LoadScene("MountainLevel");
              }else{
-                             if(onSlide == 2)
+            
+            if(onSlide == 2)
             {
                 _text.text = "Code : ";
             _images[onSlide].SetActive(true);
