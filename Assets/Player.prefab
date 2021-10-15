@@ -276,6 +276,7 @@ MonoBehaviour:
   Player: {fileID: 580604725381435788}
   spriteRenderer: {fileID: 580604725381435891}
   _anim: {fileID: 580604725381435890}
+  fmod: {fileID: 2912359238609895493}
 --- !u!95 &580604725381435890
 Animator:
   serializedVersion: 3
