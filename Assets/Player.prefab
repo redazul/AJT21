@@ -102,6 +102,8 @@ GameObject:
   m_Component:
   - component: {fileID: 580604725381435788}
   - component: {fileID: 580604725381435789}
+  - component: {fileID: 2912359238609895493}
+  - component: {fileID: 8365991247336109946}
   - component: {fileID: 1657844090171488265}
   - component: {fileID: 580604725381435790}
   - component: {fileID: 580604725381435791}
@@ -149,6 +151,41 @@ MonoBehaviour:
   _spriteRenderer: {fileID: 580604725381435891}
   _anim: {fileID: 580604725381435890}
   grounded: 0
+--- !u!114 &2912359238609895493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580604725381435889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d89583d48c3d8cc4dbc79bfd5d3c195d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8365991247336109946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580604725381435889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/sfx/player/sfx_player_jump
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!114 &1657844090171488265
 MonoBehaviour:
   m_ObjectHideFlags: 0
