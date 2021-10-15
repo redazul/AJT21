@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public float JUMP_VELOCITY_MAX = 5;
+
     public float MovementSpeed = 7.5f;
     public float JumpForce = 5; 
     public SpriteRenderer _spriteRenderer;
@@ -55,7 +57,8 @@ public class Player : MonoBehaviour
             grounded = false;
             _anim.SetInteger("speed",0);
             _anim.SetBool("hover",true);
-            rb.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse); 
+
+            if (rb.velocity.y < JUMP_VELOCITY_MAX) rb.AddForce(new Vector2(0, JumpForce), ForceMode2D.Impulse); 
         }
     }
 }

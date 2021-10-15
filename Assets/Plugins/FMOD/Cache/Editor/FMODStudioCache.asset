@@ -1,5 +1,49 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9180400986960559770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/Progress_Slides
+  m_EditorClassIdentifier: 
+  Name: Progress_Slides
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &-9179332269449542440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/SFX_Next_Slide
+  m_EditorClassIdentifier: 
+  Name: SFX_Next_Slide
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-9126762113005933495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,6 +110,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &-8985489940497999206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Number of enemies on screen
+  m_EditorClassIdentifier: 
+  Name: Number of enemies on screen
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-8948852301544415155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,6 +154,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-8938400567727597599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-8923465397799963939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,6 +374,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-8424753584723402321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Platforms
+  m_EditorClassIdentifier: 
+  Name: Platforms
+  Min: 0
+  Max: 14
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-8421245446636858416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,6 +484,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-8224037359013183368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Platforms
+  m_EditorClassIdentifier: 
+  Name: Platforms
+  Min: 0
+  Max: 14
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-8223423525695194155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,6 +550,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-8149346776277052830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Number of enemies on screen
+  m_EditorClassIdentifier: 
+  Name: Number of enemies on screen
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-8104095741312684474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -683,6 +837,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-7740505979276698754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/SFX_Next_Slide
+  m_EditorClassIdentifier: 
+  Name: SFX_Next_Slide
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-7709776784928187689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -721,6 +897,28 @@ MonoBehaviour:
   Min: 0
   Max: 9
   Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &-7670340778023537360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
   ID:
     data1: 0
     data2: 0
@@ -1062,6 +1260,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-7002770739843025307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/music_level4/Progress '
+  m_EditorClassIdentifier: 
+  Name: 'Progress '
+  Min: 0
+  Max: 9
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-6984603383666084114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1100,6 +1320,28 @@ MonoBehaviour:
   Min: 0
   Max: 9
   Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-6967314841269464101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
   ID:
     data1: 0
     data2: 0
@@ -1194,6 +1436,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-6809164267980742637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/Progress_Slides
+  m_EditorClassIdentifier: 
+  Name: Progress_Slides
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-6783641445863571336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1260,6 +1524,50 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-6711561985292792164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level2/Progress L2
+  m_EditorClassIdentifier: 
+  Name: Progress L2
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &-6691419623197617513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Progress L3
+  m_EditorClassIdentifier: 
+  Name: Progress L3
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-6683316792533503382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1743,7 +2051,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 8946290043293955629}
+  - {fileID: -838798770721877150}
   MinDistance: 0
   MaxDistance: 0
   Length: 112000
@@ -1989,6 +2297,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-5304402204005095439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/music_level4/Progress '
+  m_EditorClassIdentifier: 
+  Name: 'Progress '
+  Min: 0
+  Max: 9
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-5292210696503048884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2122,6 +2452,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-5103861493845449247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/Progress_Slides
+  m_EditorClassIdentifier: 
+  Name: Progress_Slides
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-5073258661182327265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2343,6 +2695,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &-4645902714498360460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 1
 --- !u!114 &-4643922746213983567
@@ -3338,6 +3712,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-2799618848435438539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/music_level4/Progress '
+  m_EditorClassIdentifier: 
+  Name: 'Progress '
+  Min: 0
+  Max: 9
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-2798848939545787334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3360,6 +3756,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-2767599421686923007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level2/Progress L2
+  m_EditorClassIdentifier: 
+  Name: Progress L2
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-2668053082316199418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3449,6 +3867,50 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-2506812777859937510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Progress L3
+  m_EditorClassIdentifier: 
+  Name: Progress L3
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &-2491355064354495375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-2460916053728432404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3471,6 +3933,116 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-2454176758800250682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &-2394463068720930849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/music_level4/Progress '
+  m_EditorClassIdentifier: 
+  Name: 'Progress '
+  Min: 0
+  Max: 9
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &-2364448755918685880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Number of enemies on screen
+  m_EditorClassIdentifier: 
+  Name: Number of enemies on screen
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &-2291333290987889737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Progress L3
+  m_EditorClassIdentifier: 
+  Name: Progress L3
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-2261789916792951902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Platforms
+  m_EditorClassIdentifier: 
+  Name: Platforms
+  Min: 0
+  Max: 14
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-2154473128942177938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3647,6 +4219,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 1
+--- !u!114 &-1821170601933075357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Progress L3
+  m_EditorClassIdentifier: 
+  Name: Progress L3
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-1773862906610879925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3713,6 +4307,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-1703667093697409965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-1688327921860773224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3751,6 +4367,28 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &-1646196441523552545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Progress L3
+  m_EditorClassIdentifier: 
+  Name: Progress L3
+  Min: 0
+  Max: 8
+  Default: 0
   ID:
     data1: 0
     data2: 0
@@ -3911,6 +4549,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-1298367009901984988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Platforms
+  m_EditorClassIdentifier: 
+  Name: Platforms
+  Min: 0
+  Max: 14
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-1272171980989359420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4021,6 +4681,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-838798770721877150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level2/Progress L2
+  m_EditorClassIdentifier: 
+  Name: Progress L2
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-802604936336166409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4198,6 +4880,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-377310200043641538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/SFX_Next_Slide
+  m_EditorClassIdentifier: 
+  Name: SFX_Next_Slide
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-313623421498028131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4220,6 +4924,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-300906671264063113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Number of enemies on screen
+  m_EditorClassIdentifier: 
+  Name: Number of enemies on screen
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-215508999367136714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4328,8 +5054,8 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -6683316792533503382}
-  - {fileID: 8071339924182625748}
+  - {fileID: 2654128727479513919}
+  - {fileID: 5532842982964000184}
   MinDistance: 0
   MaxDistance: 0
   Length: 149616
@@ -4505,6 +5231,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &72664901926235938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &75835482863569983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4591,6 +5339,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &180212899998509261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Platforms
+  m_EditorClassIdentifier: 
+  Name: Platforms
+  Min: 0
+  Max: 14
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &237371257294619469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4607,6 +5377,28 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &238850524781084268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/Progress_Slides
+  m_EditorClassIdentifier: 
+  Name: Progress_Slides
+  Min: 0
+  Max: 7
+  Default: 0
   ID:
     data1: 0
     data2: 0
@@ -4836,6 +5628,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &736362003084183385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/SFX_Next_Slide
+  m_EditorClassIdentifier: 
+  Name: SFX_Next_Slide
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &752416108229222178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5188,8 +6002,8 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -5292210696503048884}
-  - {fileID: -5458805330480742369}
+  - {fileID: 3804974903221728686}
+  - {fileID: 5526446222328338145}
   MinDistance: 0
   MaxDistance: 0
   Length: 18533
@@ -5237,6 +6051,50 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &1152537828000453334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Platforms
+  m_EditorClassIdentifier: 
+  Name: Platforms
+  Min: 0
+  Max: 14
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &1170366304435241007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/Progress_Slides
+  m_EditorClassIdentifier: 
+  Name: Progress_Slides
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &1189762738062705720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5363,6 +6221,28 @@ MonoBehaviour:
   Min: 0
   Max: 100
   Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &1520298158669597646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/music_level4/Progress '
+  m_EditorClassIdentifier: 
+  Name: 'Progress '
+  Min: 0
+  Max: 9
+  Default: 0
   ID:
     data1: 0
     data2: 0
@@ -5565,6 +6445,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &1886431872124116865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/SFX_Next_Slide
+  m_EditorClassIdentifier: 
+  Name: SFX_Next_Slide
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &1939124235834352593
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5587,6 +6489,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &1952360197228485314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Platforms
+  m_EditorClassIdentifier: 
+  Name: Platforms
+  Min: 0
+  Max: 14
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &1967000518417638501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5602,6 +6526,28 @@ MonoBehaviour:
   Name: Progress L3
   Min: 0
   Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &1971110611132607035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level2/Progress L2
+  m_EditorClassIdentifier: 
+  Name: Progress L2
+  Min: 0
+  Max: 5
   Default: 0
   ID:
     data1: 0
@@ -5654,6 +6600,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &2139152724805631803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &2160870638423675049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5896,6 +6864,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &2654128727479513919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &2725731861357779077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6006,6 +6996,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &2764086812955539197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Number of enemies on screen
+  m_EditorClassIdentifier: 
+  Name: Number of enemies on screen
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &2765376625797859174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6095,6 +7107,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &3048011029632594440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Number of enemies on screen
+  m_EditorClassIdentifier: 
+  Name: Number of enemies on screen
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &3060508349749459068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6161,6 +7195,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &3181535975924083910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &3216720816329958453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6183,6 +7239,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &3220907410236411858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Progress L3
+  m_EditorClassIdentifier: 
+  Name: Progress L3
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &3225012660645602628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6294,6 +7372,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &3363900379760728503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level2/Progress L2
+  m_EditorClassIdentifier: 
+  Name: Progress L2
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &3368525416716793409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6493,6 +7593,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &3588715700641102450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Number of enemies on screen
+  m_EditorClassIdentifier: 
+  Name: Number of enemies on screen
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &3607870153090088710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6581,6 +7703,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &3804974903221728686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/SFX_Next_Slide
+  m_EditorClassIdentifier: 
+  Name: SFX_Next_Slide
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &3819638368203713220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6866,10 +8010,10 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -1837370970697229682}
-  - {fileID: 7238554945390062029}
-  - {fileID: 2725902471639296223}
-  - {fileID: 1567531482578091045}
+  - {fileID: -8424753584723402321}
+  - {fileID: 7652031629432500016}
+  - {fileID: 3181535975924083910}
+  - {fileID: -8149346776277052830}
   MinDistance: 0
   MaxDistance: 0
   Length: 362261
@@ -7430,6 +8574,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &5109187191347432544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Number of enemies on screen
+  m_EditorClassIdentifier: 
+  Name: Number of enemies on screen
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &5234028057569734961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7760,6 +8926,50 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &5526446222328338145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/Progress_Slides
+  m_EditorClassIdentifier: 
+  Name: Progress_Slides
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &5532842982964000184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Progress L3
+  m_EditorClassIdentifier: 
+  Name: Progress L3
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &5580146904874863584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7914,6 +9124,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &5860681253461502419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &5876794382704202891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7934,6 +9166,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &5987771158242888937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/SFX_Next_Slide
+  m_EditorClassIdentifier: 
+  Name: SFX_Next_Slide
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
   IsGlobal: 0
   Exists: 0
 --- !u!114 &6009056369221761090
@@ -7980,6 +9234,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &6087132232286103304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/Progress_Slides
+  m_EditorClassIdentifier: 
+  Name: Progress_Slides
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &6114227440060004220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8422,6 +9698,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &6915178266356731263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &6953621908615592597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8774,6 +10072,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &7562619439338290368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/Progress_Slides
+  m_EditorClassIdentifier: 
+  Name: Progress_Slides
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &7591208393764374157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8796,6 +10116,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &7652031629432500016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/music_level4/Progress '
+  m_EditorClassIdentifier: 
+  Name: 'Progress '
+  Min: 0
+  Max: 9
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &7682021483363589664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8818,6 +10160,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &7694985363130948874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Platforms
+  m_EditorClassIdentifier: 
+  Name: Platforms
+  Min: 0
+  Max: 14
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &7738587325029640417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8840,6 +10204,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &7750339387438882774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/music_level4/Progress '
+  m_EditorClassIdentifier: 
+  Name: 'Progress '
+  Min: 0
+  Max: 9
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &7773271123950160276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8862,6 +10248,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &7779800991467812577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level2/Progress L2
+  m_EditorClassIdentifier: 
+  Name: Progress L2
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &7834985961101353067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8972,6 +10380,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &8002513005131875743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/music_level4/Progress '
+  m_EditorClassIdentifier: 
+  Name: 'Progress '
+  Min: 0
+  Max: 9
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &8049943054411635149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9148,6 +10578,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &8356798164568395981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level2/Progress L2
+  m_EditorClassIdentifier: 
+  Name: Progress L2
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &8404683884249351263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9170,6 +10622,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &8434202350870368827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level1/SFX_Next_Slide
+  m_EditorClassIdentifier: 
+  Name: SFX_Next_Slide
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &8464644461558864921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9258,6 +10732,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &8627957302418356954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level2/Progress L2
+  m_EditorClassIdentifier: 
+  Name: Progress L2
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &8653096638313264886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9280,6 +10776,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &8800746360798038929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level4/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &8819661395747066311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9413,6 +10931,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &9013347935663780140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &9055752954565987729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9457,6 +10997,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &9126722062991661584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Progress L3
+  m_EditorClassIdentifier: 
+  Name: Progress L3
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &9127509850455631037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9476,6 +11038,28 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 22309216
+  Exists: 1
+--- !u!114 &9140890714411588240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level3/Health
+  m_EditorClassIdentifier: 
+  Name: Health
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
   Exists: 1
 --- !u!114 &9146521853973511747
 MonoBehaviour:
