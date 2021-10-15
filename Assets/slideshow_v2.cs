@@ -12,11 +12,18 @@ public class slideshow_v2 : MonoBehaviour
     public float onFrame =0;
     public bool goNext = true;
 
+    public FMODLevel1 fmodLevel1;
+    public FMODLevel2 fmodLevel2;
+
+    public string fmodEventCalculator;
+    public string fmodEventRetry;
+
+    bool wasPassCodeChecked;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        wasPassCodeChecked = false;
     }
 
 
@@ -66,10 +73,23 @@ public class slideshow_v2 : MonoBehaviour
              if(next == 10)
             {
                 _text.text = "Code : ";
-
             }
 
 
+        }
+
+
+        // FMOD
+        if (next == 9) fmodLevel1.Stop();
+
+
+        if (!Input.GetKeyDown(KeyCode.Space))
+        {
+            if (Input.anyKeyDown)
+            {
+                // player calculator sfx
+                fmodLevel2.PlayEvent(fmodEventCalculator);
+            }
         }
         
     }
@@ -89,6 +109,7 @@ public class slideshow_v2 : MonoBehaviour
                     _text.text = "<space>";
                 }else{
                     _text.text = "Code : ";
+                    StartCoroutine(FMODEventRetryAfterDelay());
                 }
 
             }
@@ -98,5 +119,11 @@ public class slideshow_v2 : MonoBehaviour
 
     }
 
+
+    IEnumerator<WaitForSeconds> FMODEventRetryAfterDelay()
+    {
+        yield return new WaitForSeconds(0.175f);
+        fmodLevel2.PlayEvent(fmodEventRetry);
+    }
 
 }

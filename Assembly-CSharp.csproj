@@ -64,8 +64,9 @@
     <Compile Include="Assets\Drive\Bullet.cs" />
     <Compile Include="Assets\Drive\Health.cs" />
     <Compile Include="Assets\slideshow_v2.cs" />
-    <Compile Include="Assets\FMODMusic.cs" />
+    <Compile Include="Assets\FMODLevel1.cs" />
     <Compile Include="Assets\Enemy.cs" />
+    <Compile Include="Assets\FMODLevel2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
