@@ -59,10 +59,11 @@
     <Compile Include="Assets\PreLoad.cs" />
     <Compile Include="Assets\DontDestoryOnLoad.cs" />
     <Compile Include="Assets\groundCheck.cs" />
+    <Compile Include="Assets\FMODPlayer.cs" />
     <Compile Include="Assets\Drive\Player.cs" />
     <Compile Include="Assets\Drive\Bullet.cs" />
     <Compile Include="Assets\Drive\Health.cs" />
-    <Compile Include="Assets\FMODPlayer.cs" />
+    <Compile Include="Assets\slideshow_v2.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

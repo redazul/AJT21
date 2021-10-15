@@ -11,6 +11,9 @@ public class Weapon : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public Animator _anim;
     Quaternion spriteRotation;
+    public FMODPlayer fmod;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +29,6 @@ public class Weapon : MonoBehaviour
             Debug.Log("shoot");
             Shoot();
         }
-        
     }
 
 
@@ -44,7 +46,7 @@ public class Weapon : MonoBehaviour
             Instantiate(bulletPrefab,firePoint.position,spriteRotation);
 
         }
-        
 
+        fmod.Shoot();
     }
 }
