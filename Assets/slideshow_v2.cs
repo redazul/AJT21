@@ -33,7 +33,7 @@ public class slideshow_v2 : MonoBehaviour
                      if(next==13)
             {
             
-             SceneManager.LoadScene("c_mountain");
+             SceneManager.LoadScene("b_sea");
             }
 
         onFrame = _anim.GetCurrentAnimatorStateInfo(0).normalizedTime;

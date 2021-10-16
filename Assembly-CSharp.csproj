@@ -54,7 +54,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\GUIHealth.cs" />
+    <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\Drive\Weapon.cs" />
+    <Compile Include="Assets\FMODLevel1.cs" />
     <Compile Include="Assets\Slideshow.cs" />
     <Compile Include="Assets\PreLoad.cs" />
     <Compile Include="Assets\DontDestoryOnLoad.cs" />
@@ -63,10 +65,10 @@
     <Compile Include="Assets\Drive\Player.cs" />
     <Compile Include="Assets\Drive\Bullet.cs" />
     <Compile Include="Assets\Drive\Health.cs" />
-    <Compile Include="Assets\slideshow_v2.cs" />
-    <Compile Include="Assets\FMODLevel1.cs" />
-    <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\FMODLevel2.cs" />
+    <Compile Include="Assets\slideshow_v2.cs" />
+    <Compile Include="Assets\FMODLevel4.cs" />
+    <Compile Include="Assets\boss_movement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

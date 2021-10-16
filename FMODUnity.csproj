@@ -94,11 +94,13 @@
     <None Include="Assets\Plugins\FMOD\lib\uwp\x64\fmodstudioL.dll" />
     <None Include="Assets\Plugins\FMOD\lib\uwp\x64\fmodL.dll" />
     <None Include="Assets\Plugins\FMOD\lib\uwp\arm\fmodL.dll" />
+    <None Include="Assets\Plugins\FMOD\lib\win\x86\fmodstudioL.dll" />
     <None Include="Assets\Plugins\FMOD\lib\win\x86\resonanceaudio.dll" />
     <None Include="Assets\Plugins\FMOD\lib\uwp\x86\fmodstudioL.dll" />
     <None Include="Assets\Plugins\FMOD\lib\uwp\x86\fmodL.dll" />
     <None Include="Assets\Plugins\FMOD\lib\uwp\arm\fmodstudioL.dll" />
     <None Include="Assets\Plugins\FMOD\lib\win\x86\fmodstudio.dll" />
+    <None Include="Assets\Plugins\FMOD\lib\win\x86_64\fmodstudioL.dll" />
     <None Include="Assets\Plugins\FMOD\lib\uwp\arm\fmodstudio.dll" />
     <None Include="Assets\Plugins\FMOD\README.txt" />
     <None Include="Assets\Plugins\FMOD\lib\uwp\x64\fmod.dll" />
@@ -108,8 +110,6 @@
     <None Include="Assets\Plugins\FMOD\FMODUnity.asmdef" />
     <None Include="Assets\Plugins\FMOD\lib\win\x86_64\resonanceaudio.dll" />
     <None Include="Assets\Plugins\FMOD\lib\uwp\x86\fmodstudio.dll" />
-    <None Include="Assets\Plugins\FMOD\lib\win\x86_64\fmodstudioL.dll" />
-    <None Include="Assets\Plugins\FMOD\lib\win\x86\fmodstudioL.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -343,9 +343,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
@@ -354,6 +351,9 @@
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
