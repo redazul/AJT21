@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\GUIHealth.cs" />
+    <Compile Include="Assets\boss_movement.cs" />
     <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\Drive\Weapon.cs" />
     <Compile Include="Assets\FMODLevel1.cs" />
@@ -68,7 +69,7 @@
     <Compile Include="Assets\FMODLevel2.cs" />
     <Compile Include="Assets\slideshow_v2.cs" />
     <Compile Include="Assets\FMODLevel4.cs" />
-    <Compile Include="Assets\boss_movement.cs" />
+    <Compile Include="Assets\FMODLevel3.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
